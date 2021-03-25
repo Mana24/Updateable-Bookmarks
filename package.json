@@ -1,0 +1,22 @@
+{
+  "name": "updateable-bookmarks",
+  "version": "1.0.0",
+  "description": "A chrome extension that allows you to update existing bookmarks with the click of a button",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mana24/Updateable-Bookmarks.git"
+  },
+  "author": "Mana24",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mana24/Updateable-Bookmarks/issues"
+  },
+  "homepage": "https://github.com/Mana24/Updateable-Bookmarks#readme",
+  "dependencies": {
+    "@types/chrome": "0.0.85"
+  }
+}
