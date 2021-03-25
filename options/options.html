@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bookmark Updater Options Page</title>
+	</head>
+<body style="background-color: aquamarine;">
+	<!---<h2>This options page hasn't been implement yet!</h2>-->
+	<p>
+		<label for="UpdateTitleCheckboxDefault">Update Titles (default)</label>
+		<input type="checkbox" id="UpdateTitleCheckboxDefault" checked="true">
+	</p>
+	
+	<p>
+		<label for="SortingMethodSelector">Preferred method of sorting displayed bookmarks in this extension </label>
+	
+		<select id="SortingMethodSelector" title="Sorting method of bookmarks in the bookmark selector in the extension">
+			<option id="0" title="Sorts based on the Levenshtein Distance between the bookmarks' url and the current tab's url">
+				Levenshtein Distance (urls)
+			</option>
+			<option id="1" title="Sorts based on the Levenshtein Distance between the bookmarks' title and the current tab's title">
+				Levenshtein Distance (tab titles)
+			</option>
+			<option id="2" title="Sorts based on the date of creation of the bookmark">Date Added</option>
+            <option id="3" title="Sorts the bookmarks alphapetically">Alphapetical Order</option>
+        </select>
+	</p>
+
+	<div style="text-align: left">
+		<input type="button" id="SaveButton" value="Save!" disabled="true" title="Saves the changes you've made and applies them">
+		<span id="SavedLabel" style="background-color: indigo; color: lawngreen; visibility: hidden">
+			Saved!
+		</span>
+	</div>
+	<script src="../ProjectTypes.js"></script>
+	<script src="./options.js"></script>
+</body>
+</html>

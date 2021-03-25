@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--I wrote this when I had 0 css knowledge. plz forgive. I still have 0 css knowledge-->
+<html>
+    <head>
+        <style>
+            #SettingsIcon {
+                cursor: pointer;
+                float: right;
+                transition: transform .2s;
+            }
+            #SettingsIcon:hover {
+                transform: scale(1.2);
+            }
+
+            #MessageToUserLabel {
+                margin:auto;
+                display:block; 
+                text-align: center;
+                opacity: 0;
+            }
+
+            #UpdateButton:enabled {
+                cursor: pointer;
+            }
+        </style>
+        <title>
+            You should never see this title
+        </title>
+    </head>
+	<body style="width: 200px; height: 110px; background-color: aquamarine;">
+		<fieldset style="align-self: center">
+				<legend style="font-family: Helvetica; font-size: 9pt">
+				<img id="WebsiteFavicon" style="width: 16px;">This Website's Bookmarks
+			</legend>
+			<select id="BookmarkSelection" style="width: 100%;"></select>
+		</fieldset>
+		<!--<div style="line-height: 14px"><br></div>-->
+		<div>
+			<div style="line-height: 2px"><br></div>
+			<input id="UpdateTitleCheckbox" style="float:left" type="checkbox" checked="checked">Update Title
+            <img id="SettingsIcon" title="Go to settings" src="../SettingsWrenchIcon.png" width="14">
+            <div style="line-height: 2px"><br></div>
+			<!--<div style="line-height: 5px"><br></div>-->
+		</div>
+		<button id="UpdateButton" style="width: 100%;">Update Bookmark!</button>
+		<div style="line-height: 5px"><br></div>
+		<p id = "MessageToUserLabel"></p>
+
+		<script src="../LevenshteinDistance.js"></script>
+		<script src="../sorters.js"></script>
+		<script src="../ProjectTypes.js"></script>
+		<script src="./popup.js"></script>
+	</body>
+</html>
