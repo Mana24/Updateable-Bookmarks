@@ -14,3 +14,8 @@ Because I am a cheap ass who won't puplish on google's extension store, you have
 2. Go to Chrome://extensions
 3. Click 'Load unpacked'
 4. Select the root folder of the extension on your PC
+
+# Preview
+
+![Preview1](https://imgur.com/YOjtKBv.png)
+![Preview2](https://imgur.com/tzx1CxT.png)
