@@ -10,7 +10,7 @@ I created this while learning HTML, CSS, and Javascript. Expect some jank in the
 
 Because I am a cheap ass who won't puplish on google's extension store, you have to jump through a couple of hoops to install this extension
 
-1. Turn in chrome developer mode
+1. Turn on chrome developer mode
 2. Go to Chrome://extensions
 3. Click 'Load unpacked'
 4. Select the root folder of the extension on your PC
